@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./Assests/style.css" />
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+                <div class="container-fluid px-5">
+                    <img class="image-size" src="./Assests/images/logo.png" alt="logo" />
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link activex bg-color" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">FEATURE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary" href="#">POPULAR</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+        <section class="hero d-none d-md-block">
+            <div id="carouselExampleFadeLarge" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center align-items-center py-5">
+                            <div class="d-flex justify-content-center align-items-center gap-5 w-100">
+                                <div class="width-con">
+                                    <h2 class="fs-h">Life Of The Wild</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia sunt ad quasi. Autem possimus eaque nesciunt.</p>
+                                    <button type="button" class="btn btn-color">READ MORE<i class="bi bi-arrow-right m-2"></i></button>
+                                </div>
+                                <img src="./Assests/images/main-banner1.jpg" class="main-banner" alt="main-banner1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center align-items-center py-5">
+                            <div class="d-flex justify-content-center align-items-center gap-5 w-100">
+                                <div class="width-con">
+                                    <h2 class="fs-h">Life Of The Wild</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta mollitia sunt ad quasi. Autem possimus eaque nesciunt.</p>
+                                    <button type="button" class="btn btn-color">READ MORE<i class="bi bi-arrow-right m-2"></i></button>
+                                </div>
+                                <img src="./Assests/images/main-banner2.jpg" class="main-banner" alt="main-banner2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFadeLarge" data-bs-slide="prev">
+                    <span class="icon-circle d-flex align-items-center justify-content-center fs-4 opacity-2">
+                        <i class="bi bi-arrow-left text-dark"></i>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFadeLarge" data-bs-slide="next">
+                    <span class="icon-circle d-flex align-items-center justify-content-center fs-4 opacity-2">
+                        <i class="bi bi-arrow-right text-dark"></i>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        
+  <section class="hero2 d-md-none m-5">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade position-relative">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./Assests/images/main-banner1.jpg" class="main-banner img-fluid" alt="main-banner1">
+            <div class="text-content text-center px-3 mt-3">
+              <h2 class="fs-h">Life Of The Wild</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta mollitia sunt ad quasi. Autem possimus eaque nesciunt.</p>
+              <button type="button" class="btn btn-color">READ MORE<i class="bi bi-arrow-right m-2"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./Assests/images/main-banner2.jpg" class="main-banner img-fluid" alt="main-banner2">
+            <div class="text-content text-center px-3 mt-3">
+              <h2 class="fs-h">Life Of The Wild</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta mollitia sunt ad quasi. Autem possimus eaque nesciunt.</p>
+              <button type="button" class="btn btn-color">READ MORE<i class="bi bi-arrow-right m-2"></i></button>
+            </div>
+          </div>
+        </div>
+    </div>
+      <button class="carousel-control-prev position-absolute top-50 start-0 translate-middle-y" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next position-absolute top-50 end-0 translate-middle-y" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+    </header>
+    <main>
+        <section class="w-100 h-100 bg-color2 p-5">
+            <div class="w-100 gap-3  d-flex justify-content-center align-items-center flex-wrap">
+            <img src="./Assests/images/client-image1.png" alt="image1"/>
+            <img src="./Assests/images/client-image2.png" alt="image2"/>
+            <img src="./Assests/images/client-image3.png" alt="image3"/>
+            <img src="./Assests/images/client-image4.png" alt="image4"/>
+            <img src="./Assests/images/client-image5.png" alt="image5"/>
+            </div>
+        </section>
+          
+        <section>
+            <div class="border-bottom w-100 h-75">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5 my-5">
+                <p class="text-secondary">SOME QUALITY ITEMS</p>
+                <div class="title-container text-center position-relative mb-4">
+                    <h3 class="line d-inline-block bg-white px-3">Featured Books</h3>
+                    <div class="line-left"></div>
+                    <div class="line-right"></div>
+                </div>
+            </div>
+            <div id="root" class="d-flex justify-content-center align-items-center flex-wrap gap-5 m-5">
+                </div>
+                <div class="d-flex justify-content-center align-items-center gap-1 ">
+                    <p class="mb-0"><a href="#" class="text-dark text-decoration-none font-weight-bold">View All Product</a></p>
+                    <i class="bi bi-arrow-right text-dark ms-2"></i>
+            </div>
+            </div>
+           
+        </section>
+<section>
+<div id="selling" class="d-flex justify-content-center align-items-center gap-5"></div>
+<div class="d-flex justify-content-center align-items-center gap-1 trans-div">
+    <p class="mb-0"><a href="#" class="text-dark text-decoration-none font-weight-bold">Shop it now</a></p>
+    <i class="bi bi-arrow-right text-dark ms-2"></i>
+</div>
+</section>
+<section>
+    <div class="border-bottom w-100 h-75">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5 my-5">
+            <p class="text-secondary">SOME QUALITY ITEMS</p>
+            <div class="title-container text-center position-relative mb-4">
+                <h3 class="line d-inline-block bg-white px-3">Popular Books</h3>
+                <div class="line-left"></div>
+                <div class="line-right"></div>
+            </div>
+        </div>
+        <div>
+            <ul class="d-flex justify-content-center align-items-center gap-5 list-unstyled">
+                <li><a class="active text-dark" href="#">All Genre</a></li>
+                <li><a class="text-secondary text-decoration-none" href="#">Business</a></li>
+                <li><a class="text-secondary text-decoration-none" href="#">Technology</a></li>
+                <li><a class="text-secondary text-decoration-none" href="#">Adventure</a></li>
+                <li><a class="text-secondary text-decoration-none" href="#">Fictional</a></li>
+
+            </ul>
+        </div>
+        <div id="popular" class="d-flex justify-content-center align-items-center flex-wrap gap-5 m-5"></div>
+        </div>
+</section>
+<section class=" w-100 h-100 bg-color2 py-5">
+    <div class="row justify-content-center align-items-start">
+      <div class="col-6 col-md-3 mb-3">
+        <h3 class="fs-hh">Subscribe To Our Newsletter</h3>
+        <div class="underline"></div>
+      </div>
+    
+      <div class="col-lg-6  mb-3">
+        <p class="lh-lg ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error praesentium magni numquam? Labore dolorum.</p>
+        <div class="mb-2 d-flex justify-content-center align-items-start">
+        <p>Enter your email address here</p>
+        <button class="btn btn-outline-dark fw-bold border-0" type="button">SEND</button>
+        <i class="bi bi-cursor-fill ms-2"></i>
+    </div>
+            <div class="input-group">
+                <input type="email" class="form-control border-o" aria-label="Email">
+                
+            
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+
+
+        <footer>
+            <div class="row border-bottom m-5">
+                <div class="col-lg-4 text-center">
+                    <img class="image-size" src="./Assests/images/logo.png" alt="logo" />
+                    <p class="text-center m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus tenetur esse beatae voluptas fugiat illo, eaque pariatur soluta repellendus ad perferendis? Explicabo ab, quo maxime odit harum alias porro molestiae!</p>
+                </div>
+                <div class="col-lg-2 text-center">
+        <h5>About Us</h5>
+        <ul class="list-unstyled m-3">
+            <li>vision</li>
+            <li>articles</li>
+            <li>careers</li>
+            <li>service items</li>
+            <li>donate</li>
+        </ul>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5>Discover</h5>
+                    <ul class="list-unstyled m-3">
+                        <li>Home</li>
+                        <li>Books</li>
+                        <li>Authors</li>
+                        <li>Subjects</li>
+                        <li>Advanced Search</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5>My Account</h5>
+                    <ul class="list-unstyled m-3">
+                        <li>Sign in</li>
+                        <li>View Cart</li>
+                        <li>My Wishtlist</li>
+                        <li>Track My Order</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 text-center">
+                    <h5>HELP</h5>
+                    <ul class="list-unstyled m-3">
+                        <li>Help center</li>
+                        <li>Report a Problem</li>
+                        <li>Suggesting edits</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+            </div>
+          <div class="row">
+                <div class="col-lg-6 text-center">
+        <p>copy& 2022 All rights reserved.Free HTML Template By<span class="bg-color">Templates Jungle</span></p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-end align-items-center gap-3 fs-4 px-5">
+                        <a href="#" target="_blank" class="bi bi-facebook text-dark"></a>
+                        <a href="#" target="_blank" class="bi bi-twitter text-dark"></a>
+                        <a href="#" target="_blank" class="bi bi-youtube text-dark"></a>
+                        <a href="#" target="_blank" class="bi bi-behance text-dark"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./Assests/script.js"></script>
+</body>
+
+</html>
